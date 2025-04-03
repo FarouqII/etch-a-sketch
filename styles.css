@@ -40,12 +40,25 @@ body {
     border-radius: 50%;
     background-color: white;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border: 1px transparent;
+    font: "roboto", "sans-serif";
+    font-weight: 700;
 }
 
 #grid-row {
     display: flex;
 }
 
-#grid-tile {
+.grid-tile {
     border: 1px solid gray;
 }
